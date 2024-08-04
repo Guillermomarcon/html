@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Box</title>
+    <title>Flex Box 003</title>
     <style>
         div.conteiner {
             background-color: blanchedalmond;
             display: flex;
-            flex-direction: row;
+           flex-flow: row wrap;
         }
 
         div.item {
@@ -16,18 +16,20 @@
             border: 1px solid black;
             text-align: center;
             padding: 10px;
+            flex: auto;
+            
             
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">a</div>
-        <div class="item">b</div>
-        <div class="item">c</div>
-        <div class="item">d</div>
-        <div class="item">e</div>
-        <div class="item">f</div>
+        <div class="item">Exemplo de bloco a</div>
+        <div class="item">Exemplo de bloco b</div>
+        <div class="item">Exemplo de bloco c</div>
+        <div class="item">Exemplo de bloco d</div>
+        <div class="item">Exemplo de bloco e</div>
+        <div class="item">Exemplo de bloco f</div>
 
     </div>
     
